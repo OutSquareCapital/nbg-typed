@@ -8,7 +8,21 @@ from numbagg.moving_exp import (
     move_exp_nanvar,
     move_exp_nancount,
 )
-from numbagg.funcs import bfill, ffill, allnan, anynan, nancount, nansum, nanmean, nanvar, nanstd
+from numbagg.funcs import (
+    bfill,
+    ffill,
+    allnan,
+    anynan,
+    nancount,
+    nansum,
+    nanmean,
+    nanvar,
+    nanstd,
+    nanmax,
+    nanmin,
+    nanargmin,
+    nanargmax,
+)
 
 __all__ = [
     "move_mean",
@@ -33,4 +47,8 @@ __all__ = [
     "nanmean",
     "nanvar",
     "nanstd",
+    "nanmax",
+    "nanmin",
+    "nanargmin",
+    "nanargmax",
 ]

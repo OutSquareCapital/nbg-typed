@@ -1,6 +1,7 @@
 from typing import overload
 import numpy as np
 from numpy.typing import NDArray
+
 type FloatScalar = np.float64 | np.float32
 type FloatArray = NDArray[np.float64] | NDArray[np.float32]
 
