@@ -22,6 +22,7 @@ from numbagg.funcs import (
     nanmin,
     nanargmin,
     nanargmax,
+    nanmedian,
 )
 
 __all__ = [
@@ -51,4 +52,5 @@ __all__ = [
     "nanmin",
     "nanargmin",
     "nanargmax",
+    "nanmedian",
 ]
